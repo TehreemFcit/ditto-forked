@@ -231,6 +231,11 @@
         <release.scm.developerConnection>scm:git:https://github.com/eclipse-ditto/ditto.git</release.scm.developerConnection>
         <release.scm.url>https://github.com/eclipse-ditto/ditto.git</release.scm.url>
 
+        <properties>
+          <sonar.organization>tehreemfcit</sonar.organization>
+          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        </properties>
+
         <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
 
         <!-- globally set version for checking binary compatibility against -->
